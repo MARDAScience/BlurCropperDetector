@@ -1,0 +1,16 @@
+name: blur
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+ - python
+ - scipy
+ - numpy
+ - scikit-image>=0.18.2
+ - ipython
+ - matplotlib
+ - tqdm
+ - jupyter
+ - pip
+ - pip:
+   - image-quality
